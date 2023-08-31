@@ -1,0 +1,82 @@
+.pinterest__container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+background-color: #4B435A;
+flex-direction: column;
+padding-bottom: 60px;
+}
+
+.pinterest__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+   
+    
+}
+.pinterest__content img{
+    width: 300px;
+    padding: 15px;
+    padding-top: 80px;
+}
+.pinterest__logo{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.pinterest__logo svg{
+    margin-right: -22px;
+}
+@media(min-width:1360px){
+  .pinterest__content img{
+    width: 400px;
+  }
+}
+
+
+@media(min-width:1081px){
+    .pinterest__logo svg{
+ scale: 1.5;
+ margin-right: 42px;
+    }
+    .pinterest__content img{
+        padding: 20px;
+        padding-top: 80px;
+    }
+}
+
+
+
+@media(max-width:1080px){
+    .pinterest__content img{
+       width: 240px;
+    }
+}
+@media(max-width:810px){
+    .pinterest__content img{
+        width: 200px;
+        padding: 10px;
+     }
+}
+@media(max-width:650px){
+    .pinterest__logo svg{
+       
+
+
+
+        margin-right: -11.7px;
+    width: 164px;
+    margin-top: -10px;
+
+        
+           }
+}
+@media(max-width:500px){
+    .pinterest__content img{
+        width: 150px;
+        padding: 10px;
+     }
+}

@@ -1,0 +1,17 @@
+.pinterest__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #4B435A;
+flex-direction: column;
+height: 200vh;
+}
+
+.pinterest__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}

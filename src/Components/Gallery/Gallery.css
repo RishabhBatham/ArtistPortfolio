@@ -1,0 +1,139 @@
+.gallery__container{
+    background-color: #4B435A;
+    width: 100%;
+   
+    display: flex;
+
+        height: 120vh;
+    flex-direction: column;
+
+
+
+}
+.gallery__logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gallery__slider{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__imagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+    flex-direction: column;
+}
+.gallery__imagecontainer img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    scale: 1.8;
+}
+.gallery__slidercard__text{
+
+color: #FFF;
+font-family: Cormorant;
+font-size: 39px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 178px;
+
+}
+.gallery__slidercard__text2{
+    color: #E2E0E7;
+    font-family: Cormorant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.gallery__bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    margin: 50px 0px;
+
+
+}
+
+
+
+@media(min-width:1081px){
+    
+}
+
+@media(max-width:1350px){
+    .gallery__imagecontainer img{
+        scale: 1.6;
+    }
+    .gallery__slidercard__text{
+        margin-top: 138px;
+        font-size: 37px;
+    }
+    .gallery__slidercard__text2{
+        font-size: 17px;
+    }
+}
+
+@media(max-width:1080px){
+    .gallery__imagecontainer img{
+        scale: 1.4;
+    }
+    .gallery__slidercard__text{
+        margin-top: 108px;
+        font-size: 32px;
+    }
+    .gallery__slidercard__text2{
+        font-size: 15px;
+    }
+
+    .gallery__container{
+        height: 100vh;
+    }
+}
+@media(max-width:850px){
+    .gallery__imagecontainer img{
+        scale: 1.2;
+    }
+    .gallery__slidercard__text{
+        margin-top: 78px;
+        font-size: 28px;
+    }
+    .gallery__slidercard__text2{
+        font-size: 13px;
+    }
+}
+@media(max-width:650px){
+    .gallery__imagecontainer img{
+        scale: 1;
+        .gallery__slidercard__text{
+            margin-top: 10px;
+        }
+        font-size: 23px;
+    }
+    .gallery__slidercard__text2{
+        font-size: 11px;
+    }
+} 
+@media(max-width:450px){
+    .gallery__imagecontainer img{
+        scale: 1;
+    }
+    .gallery__slidercard__text{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .gallery__slidercard__text2{
+        font-size: 9px;
+    }
+} 

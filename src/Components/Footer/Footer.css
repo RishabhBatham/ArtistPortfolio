@@ -1,0 +1,135 @@
+.Footer__container{
+ width: 100%;
+ height: 400px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: #EAF3EA;
+ justify-content: space-around;
+ position: relative;
+}
+
+.Footer__container svg{
+position: absolute;
+top: -6%;
+left: auto;
+z-index: 20;
+}
+.foot__centertext p{
+    color: #564A4A;
+font-family: Mako;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.foot__centertext{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.foot__title{
+    color: #695F5F;
+    font-family: Radley;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+.foot__copyright {
+    color: #A88B8B;
+font-family: Mako;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+@media(min-width:1400px){
+    .foot__copyright {
+        font-size: 20px;
+    }
+    .foot__title{
+        font-size: 25px;
+    }
+    .foot__centertext p{
+  
+    font-size: 20px;
+  
+    }
+    .Footer__container{
+        height: 450px;
+    }
+    
+   }
+   
+   @media(max-width:1080px){
+    .foot__copyright {
+        font-size: 13px;
+    }
+    .foot__title{
+        font-size: 20px;
+    }
+    .foot__centertext p{
+  
+    font-size: 14px;
+  
+    }
+    .Footer__container{
+        height: 340px;
+    }
+    .Footer__container svg{
+        position: absolute;
+        top: -9%;
+        left: auto;
+        z-index: 20;
+        scale: .5;
+        }
+
+
+   }
+   @media(max-width:810px){
+    .foot__copyright {
+        font-size: 12px;
+    }
+    .foot__title{
+        font-size: 17px;
+    }
+    .foot__centertext p{
+  
+    font-size: 11px;
+  
+    }
+    .Footer__container{
+        height: 240px;
+    }
+    .Footer__container svg{
+        position: absolute;
+        top: -9%;
+        left: auto;
+        z-index: 20;
+        scale: .5;
+        }
+      
+   
+   }
+   @media(max-width:650px){
+    .Footer__container svg{
+        position: absolute;
+        top: -12%;
+        left: auto;
+        z-index: 20;
+        scale: .5;
+        }
+   }
+   

@@ -1,0 +1,128 @@
+.workselect__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.workselect__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    background: #EAE9E7;
+    padding-top: 10%;
+}
+
+.workselect__text P{
+  
+font-family: Radley;
+font-size: 99px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
+}
+.workselect__text{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding: 11px 10px;
+    border-top: 2px solid #876565;
+    border-bottom: 2px solid #876565;
+}
+
+
+
+.workselect__img img{
+   border: 25px solid #EAE9E7 ;
+}
+.workselect__img img:hover{
+       border: 25px solid rgb(109, 40, 22);
+       padding: 0px;
+       transition: all .7s;
+}
+
+
+@media(min-width:1360px){
+
+  }
+  
+  
+  @media(min-width:1081px){
+
+  }
+  
+  
+  
+  @media(max-width:1080px){
+    .workselect__img img{
+        width: 200px;
+        border: 22px solid #EAE9E7 ;
+    }
+    .workselect__img img:hover{
+        border: 22px solid rgb(109, 40, 22);
+        
+ }
+ .workselect__container{
+   
+ }
+  }
+  @media(max-width:810px){
+    .workselect__text p{
+        font-size: 70px;
+    }
+    .workselect__img img{
+        width: 170px;
+        border: 18px solid #EAE9E7 ;
+    }
+    .workselect__img img:hover{
+        border: 18px solid rgb(109, 40, 22);
+        
+ }
+ .workselect__container{
+    padding-left: 13px;
+    padding-right: 13px;
+ }
+  }
+  @media(max-width:650px){
+    .workselect__text p{
+        font-size: 50px;
+    }
+    .workselect__img img{
+        width: 160px;
+        border: 15px solid #EAE9E7 ;
+        
+    }
+    .workselect__img img:hover{
+        border: 15px solid rgb(109, 40, 22);
+        
+ }
+ .workselect__container{
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+  }
+  @media(max-width:500px){
+    .workselect__text p{
+        font-size: 40px;
+    }
+    .workselect__img img{
+        width: 120px;
+    border: 10px solid #EAE9E7 ;
+    
+
+    }
+    .workselect__img img:hover{
+        border: 10px solid rgb(109, 40, 22);
+        
+ }
+ .workselect__container{
+   padding-left: 0px;
+   padding-right: 0px;
+ }
+  }

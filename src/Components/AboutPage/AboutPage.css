@@ -1,0 +1,15 @@
+.aboutPage__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+     height: 109vh; 
+}
+
+
+@media(max-width:650px){
+    .aboutPage__container{
+        height: 70vh;
+    }
+}
